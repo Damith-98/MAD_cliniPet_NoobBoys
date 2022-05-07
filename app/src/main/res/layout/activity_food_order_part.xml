@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodOrderPart">
+
+    <com.google.android.material.imageview.ShapeableImageView
+
+    android:id="@+id/oder_food_imgUI"
+        android:layout_width="106dp"
+        android:layout_height="105dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.124"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.072"
+        app:srcCompat="@drawable/food"
+        app:strokeWidth="5dp"
+        app:strokeColor="#053568"/>
+
+    <TextView
+        android:id="@+id/odr_foodUI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pet Meals Shops."
+        android:textColor="#053568"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.387"
+        app:layout_constraintStart_toEndOf="@+id/oder_food_imgUI"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+
+    android:id="@+id/shop1img"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/oder_food_imgUI"
+        app:layout_constraintVertical_bias="0.103"
+        app:srcCompat="@drawable/shop1"
+        app:strokeWidth="5dp"
+        app:strokeColor="#053568"/>
+
+    <TextView
+        android:id="@+id/shop1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pets Food Critterly "
+        android:textColor="#053568"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toEndOf="@+id/shop1img"
+        app:layout_constraintTop_toBottomOf="@+id/odr_foodUI"
+        app:layout_constraintVertical_bias="0.202" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+
+        android:id="@+id/shop2img"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:onClick="shop2img"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shop1img"
+        app:layout_constraintVertical_bias="0.082"
+        app:srcCompat="@drawable/shop5"
+        app:strokeColor="#053568"
+        app:strokeWidth="5dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/shop2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JAKE'S"
+        android:textColor="#053568"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toEndOf="@+id/shop2img"
+        app:layout_constraintTop_toBottomOf="@+id/shop1"
+        app:layout_constraintVertical_bias="0.175" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+
+        android:id="@+id/shop3img"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shop2img"
+        app:layout_constraintVertical_bias="0.136"
+        app:srcCompat="@drawable/shop_4"
+        app:strokeWidth="5dp"
+        app:strokeColor="#053568"/>
+
+    <TextView
+        android:id="@+id/shop3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Pet Shack"
+        android:textColor="#053568"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toEndOf="@+id/shop3img"
+        app:layout_constraintTop_toBottomOf="@+id/shop2"
+        app:layout_constraintVertical_bias="0.26" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+
+        android:id="@+id/shop5img"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shop3img"
+        app:layout_constraintVertical_bias="0.205"
+        app:srcCompat="@drawable/shop_5"
+        app:strokeWidth="5dp"
+        app:strokeColor="#053568"/>
+
+    <TextView
+        android:id="@+id/shop4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sandy's"
+        android:textColor="#053568"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintStart_toEndOf="@+id/shop5img"
+        app:layout_constraintTop_toBottomOf="@+id/shop3"
+        app:layout_constraintVertical_bias="0.345" />
+</androidx.constraintlayout.widget.ConstraintLayout>

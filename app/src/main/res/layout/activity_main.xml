@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00CD0A0A"
+    android:backgroundTint="#00251C1C"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/helee"
+        android:layout_width="140dp"
+        android:layout_height="117dp"
+        android:backgroundTint="#A50909"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.068"
+        app:srcCompat="@drawable/helee"
+        app:strokeWidth="5dp"
+        app:strokeColor="#053568"/>
+
+    <TextView
+        android:id="@+id/pname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Helee"
+        android:textColor="#0B0A0A"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/helee"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.127"
+        tools:ignore="HardcodedText" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/odr_medicine"
+        android:layout_width="106dp"
+        android:layout_height="105dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.92"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.33999997"
+        app:shapeAppearanceOverlay="@style/circular"
+        app:srcCompat="@drawable/medicin"
+        app:strokeColor="#053568"
+        app:strokeWidth="5dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/syntoms"
+        android:layout_width="106dp"
+        android:layout_height="105dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/echnl"
+        app:layout_constraintVertical_bias="0.49"
+        app:srcCompat="@drawable/syntoms"
+        app:strokeColor="#053568"
+        app:strokeWidth="5dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/echnl"
+        android:layout_width="106dp"
+        android:layout_height="105dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/odr_medicine"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helee"
+        app:layout_constraintVertical_bias="0.152"
+        app:srcCompat="@drawable/e_chaneling"
+        app:strokeColor="#053568"
+        app:strokeWidth="5dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/odr_food"
+        android:layout_width="106dp"
+        android:layout_height="105dp"
+        android:onClick="odr_food"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.536"
+        app:srcCompat="@drawable/food"
+        app:strokeColor="#053568"
+        app:strokeWidth="5dp"
+        tools:ignore="SpeakableTextPresentCheck,UsingOnClickInXml" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/partner"
+        android:layout_width="106dp"
+        android:layout_height="106dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.891"
+        app:layout_constraintStart_toEndOf="@+id/syntoms"
+        app:layout_constraintTop_toBottomOf="@+id/odr_medicine"
+        app:layout_constraintVertical_bias="0.488"
+        app:srcCompat="@drawable/partner"
+        app:strokeColor="#053568"
+        app:strokeWidth="5dp" />
+
+    <TextView
+        android:id="@+id/echnltxt"
+        android:layout_width="102dp"
+        android:layout_height="23dp"
+        android:text="Echanneling  "
+        android:textColor="#053568"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/echnl"
+        app:layout_constraintVertical_bias="0.03"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/ord_medicine_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Medicine "
+        android:textColor="#053568"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/partner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toEndOf="@+id/echnltxt"
+        app:layout_constraintTop_toBottomOf="@+id/odr_medicine"
+        app:layout_constraintVertical_bias="0.111"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/food_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oder Food "
+        android:textColor="#053568"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/odr_food"
+        app:layout_constraintVertical_bias="0.037"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/syntom_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Add Symptoms"
+        android:textColor="#053568"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/partner_txt"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/syntoms"
+        app:layout_constraintVertical_bias="0.025"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/partner_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find Partner"
+        android:textColor="#053568"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.901"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/partner"
+        app:layout_constraintVertical_bias="0.056"
+        tools:ignore="HardcodedText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

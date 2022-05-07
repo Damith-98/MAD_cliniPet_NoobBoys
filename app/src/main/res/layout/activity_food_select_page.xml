@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodSelectPage">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/slct_food1_img"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.087"
+        app:srcCompat="@drawable/shop5"
+        app:strokeWidth="5dp"
+        app:strokeColor="#053568"/>
+
+    <TextView
+        android:id="@+id/slct_food_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtt"
+        android:textColor="#053568"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toEndOf="@+id/slct_food1_img"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/slct_food_img1"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/slct_food1_img"
+        app:layout_constraintVertical_bias="0.131"
+        app:srcCompat="@drawable/food2"
+        app:strokeWidth="5dp"
+        app:strokeColor="#053568"/>
+
+    <TextView
+        android:id="@+id/food_ja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Hearts and Poultry Dog Wet Food "
+        android:textColor="#053568"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toEndOf="@+id/slct_food_img1"
+        app:layout_constraintTop_toBottomOf="@+id/slct_food_1"
+        app:layout_constraintVertical_bias="0.21" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView3"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:onClick="imageView3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/slct_food_img1"
+        app:layout_constraintVertical_bias="0.08"
+        app:srcCompat="@drawable/food33"
+        app:strokeColor="#053568"
+        app:strokeWidth="5dp" />
+
+    <TextView
+        android:id="@+id/meow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt"
+        android:textColor="#053568"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/food_ja"
+        app:layout_constraintVertical_bias="0.199" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView4"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.164"
+        app:srcCompat="@drawable/supreme_selective_mature_rabbit_q912"
+        app:strokeWidth="5dp"
+        app:strokeColor="#053568"/>
+
+    <TextView
+        android:id="@+id/selective"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/food"
+        android:textColor="#053568"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/meow"
+        app:layout_constraintVertical_bias="0.268" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView5"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.285"
+        app:srcCompat="@drawable/_71145a"
+        app:strokeWidth="5dp"
+        app:strokeColor="#053568"/>
+
+    <TextView
+        android:id="@+id/prrot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/part"
+        android:textColor="#053568"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/selective"
+        app:layout_constraintVertical_bias="0.454" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
