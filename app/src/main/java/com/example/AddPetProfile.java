@@ -11,6 +11,7 @@ import android.widget.EditText;
 
 public class AddPetProfile extends AppCompatActivity {
 
+    //Variables Declare
     EditText editTextTextPersonName11;
     EditText editTextTextPersonName12;
     EditText editTextTextPersonName13;
@@ -53,6 +54,7 @@ public class AddPetProfile extends AppCompatActivity {
 
     }
 
+    //Data Retrieve
     public void onClick (View view)
     {
         Intent intent = new Intent(this, PetProfileDelete.class);
