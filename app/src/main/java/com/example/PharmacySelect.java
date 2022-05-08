@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+//Pharmacy Select Implement Part
 public class PharmacySelect extends AppCompatActivity {
 
     @Override
@@ -15,6 +16,7 @@ public class PharmacySelect extends AppCompatActivity {
         setContentView(R.layout.pharmacy_select);
     }
 
+    //Button Implement
     public void button2(View view)
     {
         Intent intent = new Intent(this, OrderMedicine.class);
