@@ -69,7 +69,7 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="20dp"
         android:text="@string/pet_profile"
-        android:textSize="20sp"
+        android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.105"
