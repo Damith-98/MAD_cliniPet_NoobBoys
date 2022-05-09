@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="button11"
+    tools:context=".Symptom">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="244dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="serif"
+        android:text="RABIES"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="351dp"
+        android:layout_height="181dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:srcCompat="@drawable/rabies" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="312dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="serif"
+        android:text="Description -"
+        android:textAlignment="viewStart"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="378dp"
+        android:layout_height="284dp"
+        android:layout_marginTop="12dp"
+        android:text="Rabies is a fatal but preventable viral disease. It can spread to people and pets if they are bitten or scratched by a rabid animal. In the United States, rabies is mostly found in wild animals like bats, raccoons, skunks, and foxes. However, in many other countries dogs still carry rabies, and most rabies deaths in people around the world are caused by dog bites.  The rabies virus infects the central nervous system. If a person does not receive the appropriate medical care after a potential rabies exposure, the virus can cause disease in the brain, ultimately resulting in death. Rabies can be prevented by vaccinating pets, staying away from wildlife, and seeking medical care after potential exposures before symptoms start."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="145dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="16dp"
+        android:background="#2196F3"
+        android:onClick="button11"
+        android:text="back"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+</androidx.constraintlayout.widget.ConstraintLayout>
