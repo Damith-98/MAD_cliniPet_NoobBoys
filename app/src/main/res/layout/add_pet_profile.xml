@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPetProfile">
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="74dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/bttn15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="163dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/text22"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="72dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="6dp"
+        android:text="@string/text23"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName11"
+        android:layout_width="243dp"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:onClick="onClick"
+        android:text="@string/t1"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView22"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toEndOf="@+id/textView22"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="72dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/text24"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName12"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/t2"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView23"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="72dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/text25"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName13"
+        android:layout_width="243dp"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/t3"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toEndOf="@+id/textView24"
+        tools:ignore="LabelFor,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="72dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/text26"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName14"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/t4"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toEndOf="@+id/textView25"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="72dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/text27"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName15"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/t5"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView26"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toEndOf="@+id/textView26"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="72dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/text28"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName16"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/t6"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView27"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toEndOf="@+id/textView27"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="115dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/text29"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="143dp"
+        android:layout_height="35dp"
+        android:text="@string/chb1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toEndOf="@+id/textView28"
+        app:layout_constraintTop_toTopOf="@+id/textView28"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="143dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="58dp"
+        android:text="@string/chb2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView28"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="143dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="-6dp"
+        android:layout_marginEnd="58dp"
+        android:text="@string/chb3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView28"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox2"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="130dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="76dp"
+        android:text="@string/text30"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName17"
+        android:layout_width="143dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/text31"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView29"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.265"
+        app:layout_constraintStart_toEndOf="@+id/textView29"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox3"
+        tools:ignore="LabelFor,TouchTargetSizeCheck"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName18"
+        android:layout_width="143dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/text32"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.265"
+        app:layout_constraintStart_toEndOf="@+id/textView29"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName17"
+        tools:ignore="LabelFor,TouchTargetSizeCheck"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName19"
+        android:layout_width="143dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/text33"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.265"
+        app:layout_constraintStart_toEndOf="@+id/textView29"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName18"
+        tools:ignore="LabelFor,TouchTargetSizeCheck"
+        android:autofillHints="" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="173dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="48dp"
+        android:contentDescription="@string/m10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_707728" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2196F3"
+        android:onClick="onClick"
+        android:text="@string/bttn16"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.898"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName19"
+        app:strokeWidth="2sp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="95dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="@string/bttn17"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/button11"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName19"
+        app:strokeColor="#000000"
+        app:strokeWidth="2sp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
